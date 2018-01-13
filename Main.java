@@ -15,7 +15,7 @@ public class Main {
     } else if (rename == 'N' || rename == 'n') {
       renameConsent = false;
     } else {
-      System.out.println("I am sorry, but I do not understand that.")
+      System.out.println("I am sorry, but I do not understand that.");
     }
 
     if (renameConsent == true) {
