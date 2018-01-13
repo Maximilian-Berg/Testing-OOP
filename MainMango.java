@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class MainMango {
 
   public static void main(String[] Args) {
     Scanner inpt = new Scanner(System.in);
