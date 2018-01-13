@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Main {
+
   public static void main(String[] Args) {
     Scanner inpt = new Scanner(System.in);
     System.out.print("Please enter a Name for your dog: ");
@@ -16,7 +17,6 @@ public class Main {
     } else {
       System.out.println("I am sorry, but I do not understand that.");
     }
-    System.out.println(rename);
 
     if (renameConsent == true) {
       System.out.print("Please enter a new name for your dog: ");
@@ -26,3 +26,4 @@ public class Main {
     }
   }
 }
+
